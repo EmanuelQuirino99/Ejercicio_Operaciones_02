@@ -1,0 +1,29 @@
+@startuml
+class  Main {
+
+    + toString()
+}
+class OperacionesVarias{
+    + double numero1;
+    + double numero2;
+    + double division;
+    + double suma;
+    + double diferencia;
+    + double producto;
+    + doublemodulo;
+
+
+
+    + getSuma()
+    + getDiferencia()
+    + getDivision()
+    + getProducto()
+    + getModulo()
+
+
+
+    }
+
+    Main <|---OperacionesVarias
+
+@enduml
